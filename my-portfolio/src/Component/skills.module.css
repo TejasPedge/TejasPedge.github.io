@@ -1,0 +1,93 @@
+#animate4{
+
+    animation: rotateit 7s linear infinite;
+
+
+}
+
+
+#animate6{
+
+    animation: rotateit 7s linear infinite;
+
+}
+
+
+
+#animate0{
+
+    animation : float 4s linear infinite alternate;
+
+}
+
+#animate1{
+
+    animation : float 4s linear infinite alternate;
+
+}
+
+
+#animate2{
+
+    animation : float 4s linear infinite alternate;
+
+}
+
+
+#animate3{
+
+    animation : float 4s linear infinite alternate;
+
+}
+
+#animate5{
+
+    animation : float 4s linear infinite alternate;
+
+}
+
+
+#animate7{
+
+    animation : float 2s linear infinite alternate;
+
+}
+
+
+#animate8{
+
+    animation : float 4s linear infinite alternate;
+
+}
+
+#animate9{
+
+    animation : float 4s linear infinite alternate;
+
+}
+
+
+
+@keyframes rotateit {
+
+    to {
+
+
+        transform: rotate(360deg);
+    }
+
+
+
+
+}
+
+
+@keyframes float {
+
+    to {
+
+        transform: translate(20%);
+    }
+
+
+}

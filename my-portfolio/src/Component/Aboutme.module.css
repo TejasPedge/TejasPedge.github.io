@@ -1,0 +1,33 @@
+
+
+.aboutme{
+
+    border : 2px solid rgb(0, 132, 255);
+
+    animation : about 2s
+
+}
+
+
+.Emoji {
+
+    animation: floating 2s  infinite;
+
+    animation-timing-function: linear;
+
+    animation-direction: alternate;
+}
+
+
+@keyframes floating {
+    
+    to {
+
+        transform: translateY(20%);
+
+    }
+
+
+
+
+}
